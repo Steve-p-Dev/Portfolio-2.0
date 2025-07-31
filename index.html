@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -458,3 +459,465 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- SwiperJs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- main file css -->
+    <link rel="stylesheet" href="./assets/css/sytle.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body id="body">
+    <!-- header -->
+    <Header id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./image/logo-remove.png" alt="" class="img-fluid">
+            </a>
+            <span class="developer-text">desarrollador web & movil <i class="bi bi-laptop"></i></span>
+            <ul class="menu nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#hero" class="menu_link active-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio" class="menu_link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resume" class="menu_link">Resume</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#services" class="menu_link">Services</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#contact" class="menu_link">Contact</a>
+                </li>
+                     <label class="switch">
+                        <input type="checkbox" id="dark-mode-toggle">
+                         <span class="slider round">
+                            <span><i class="bi bi-sun"></i></span>
+                            <span><i class="bi bi-moon"></i></span>
+                         </span> 
+                      </label>                       
+                <ion-icon name="close-outline" class="close_icon"></ion-icon>
+            </ul>
+            <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+        </div>
+    </Header>
+    <!-- fin header -->
+
+    <main>
+        <!-- hero section -->
+        <section class="hero section" id="hero">
+            <div class="hero_container container grid">
+                <div class="hero_content">
+                    <h4>Hello there,</h4>
+                    <h1>I'm
+                        <span class="typed" data-typed-items="Designer, Developer, Freelancer"></span>
+                    </h1>
+                    <p>
+                        A multi-skilled professional based in Ecuador, and I'm very passionate for the development and dedicate to my work.
+                    </p>
+                    <h2 class="availability">
+                        <span class="status-dot"></span> Available for work
+                    </h2>
+                    <div class="hero_social">
+                        <a class="hero_redes" href="https://www.linkedin.com/in/venegas-rengifo-steven-patricio-021867239/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a class="hero_redes" href="https://github.com/Steve-p-Dev" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                        <a class="hero_redes" href="https://wa.link/8tp7bc" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    </div>
+                    <div class="btn-container">
+                        <a href="#contact" class="btn btn-outline-dark" role="button" aria-disabled="true">Contact me&nbsp;<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                        <button class="btn btn-outline-dark" id="downloadBtn">Download CV&nbsp;<i class="bi bi-download"></i></button>
+                            <div id="downloadOptions" class="options-container">
+                                <a href="./assets/cvs/CV_English.pdf" class="download-option" download>Download in English</a>
+                                <a href="./assets/cvs/CV_Spanish.pdf" class="download-option" download>Download in Spanish</a>
+                            </div>
+                    </div>
+                </div>
+                <!-- Skills -->
+                <div class="hero_skill">
+                     <div id="page-3" class="page three"> 
+                        <h1 class="heading-skill">&nbsp;&nbsp;&nbsp;Technical Skills</h1>
+                            <div class="skill-section">
+                            <div class="skills-container">
+                                <div class="skill-card">
+                                    <img src="./image/html5-logo.png" class="skill-img" alt="">
+                                    <div class="skill-level">90%</div>
+                                    <h1 class="skill-name">HTML</h1>
+                                    <p class="skill-info">Maquetacion Html</p>
+                                </div>
+                                <div class="skill-card">
+                                    <img src="./image/logo-css.png" class="skill-img" alt="">
+                                    <div class="skill-level">70%</div>
+                                    <h1 class="skill-name">CSS</h1>
+                                    <p class="skill-info">Hoja de estilos</p>
+                                </div>
+                                <div class="skill-card">
+                                    <img src="./image/JavaScript_logo.png" class="skill-img" alt="">
+                                    <div class="skill-level">60%</div>
+                                    <h1 class="skill-name">JavaScript</h1>
+                                    <p class="skill-info">Programacion en JavaScript</p>
+                                </div>
+                                <div class="skill-card">
+                                    <img src="./image/bootstrap-logo.png" class="skill-img-boot" alt="">
+                                    <div class="skill-level">80%</div>
+                                    <h1 class="skill-name">BootStrap</h1>
+                                    <p class="skill-info">Diseño con bootstrap</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- potfolio section -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+            <div class="portfolio_container container">
+                <ul class="portfolio_filters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">App</li>
+                    <li data-filter=".filter-card">Card</li>
+                    <li data-filter=".filter-web">Web</li>
+                </ul>
+                <div class="portfolio_wrap-container">
+                    <div class="portfolio_item filter-web">
+                        <div class="portfolio_wrap">
+                            <img src="./image/Portfolio/img1.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Web 3</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="./image/Portfolio/img1.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>App 1</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="./image/Portfolio/img1.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>App 2</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-card">
+                        <div class="portfolio_wrap">
+                            <img src="./image/Portfolio/img1.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Card 2</h4>
+                                <p>Crad</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-card">
+                        <div class="portfolio_wrap">
+                            <img src="./image/Portfolio/img1.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Web 2</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="./image/Portfolio/img1.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>App 3</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <!-- Resume section  -->
+        <section class="resume section" id="resume">
+            <h2 class="section_title">Resume</h2>
+            <div class="flex-parent">
+                <div class="input-flex-container">
+                    <div class="input active">
+                        <span data-year="2019-2023" data-info="Systems Engineer"></span>
+                    </div>
+                    <div class="input">
+                        <span data-year="2012-2015" data-info="Bachelor in Science"></span>
+                    </div>
+                    <div class="input">
+                        <span data-year="2022-2023" data-info="Kitchen Assistant"></span>
+                    </div>
+                    <div class="input">
+                        <span data-year="2020-2021" data-info="Technology Sales and Repair Assistant"></span>
+                    </div>
+                    <div class="input">
+                        <span data-year="2023-2023" data-info="Sales Analyst"></span>
+                    </div>
+                </div>
+                <div class="description-flex-container">
+                    <div class="description-container">
+                        <ul class="ul-container">
+                            <li>My degree in Systems Engineering provided me with a solid background in the design,
+                                development, and analysis of computer software and hardware. Throughout my education,
+                                I acquired key skills in programming, database management, and networking,
+                                preparing me to meet the technological challenges of various industries.
+                                In addition, the course taught me to think critically and solve complex problems,
+                                skills that are essential in the constantly evolving field of information technology.</li>
+                        </ul>
+                    </div>
+                    <div class="description-container">
+                        <ul class="ul-container">
+                        <li>My training as a Bachelor of Science endowed me with a broad knowledge in several scientific
+                            disciplines, including biology, chemistry, physics and mathematics. This interdisciplinary
+                            approach not only solidified my understanding of the fundamental principles of science,
+                            but also taught me to apply scientific methods to investigate and solve practical problems.
+                            Through this education, I developed critical and analytical skills essential for further
+                            study or direct entry into scientific or technical fields.</li>
+                        </ul>
+                    </div>
+                    <div class="description-container">
+                        <ul class="ul-container">
+                            <li>I oversaw daily operations, ensuring efficiency in administrative processes.</li>
+                            <li>I coordinated meetings and events, managing logistics and ensuring smooth execution.</li>
+                        </ul>
+                    </div>
+                    <div class="description-container">
+                        <ul class="ul-container">
+                            <li>I supported the repair and sales process of technological
+                                devices, from problem identification to delivery of the
+                                repaired product.</li>
+                            <li>I managed documentation related to repairs and sales,
+                                ensuring compliance with procedures.</li>
+                        </ul>
+                    </div>
+                    <div class="description-container">
+                        <ul class="ul-container">
+                            <li>Analyzed and documented existing sales procedures,
+                                proposing improvements to optimize operational efficiency.</li>
+                            <li>Collaborated with different departments to standardize sales
+                                practices and ensure consistency across the organization.</li>
+                            <li>I participated in the implementation of inventory tracking and
+                                management systems to improve visibility and coordination.</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Services section -->
+        <section class="services section" id="services">
+            <h2 class="section_title">Services</h2>
+
+            <div class="services_container container grid">
+                <div class="services_item">
+                    <ion-icon name="grid-outline"></ion-icon>
+                    <h3 class="services_title">UI/UX <br> Designer</h3>
+                    <span class="services_button">
+                        View More <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </span>
+                    <div class="services_modal">
+                        <div>
+                            <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                            <h3 class="services_modal-title">UI/UX Designer</h3>
+                            <p class="services_modal-description">Services width more than 3 years of experience.
+                                 Providing quality work to clients and companies</p>
+                                 <ul>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">I develop the user interfaces.</p>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">Web page development.</p>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">I create ux element iteractions.</p>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">I position your company brand.</p>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">Design and mockups of products for companies.</p>
+                                    </li>
+                                 </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services_item">
+                    <ion-icon name="grid-outline"></ion-icon>
+                    <h3 class="services_title">FrontEnd <br> Developer</h3>
+                    <span class="services_button">
+                        View More <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </span>
+                    <div class="services_modal">
+                        <div>
+                            <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                            <h3 class="services_modal-title">Frontend Develoer</h3>
+                            <p class="services_modal-description">Services width more than 3 years of experience.
+                                 Providing quality work to clients and companies</p>
+                                 <ul>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">I develop the user interfaces.</p>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">Web page development.</p>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">I create ux element iteractions.</p>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">I position your company brand.</p>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">Design and mockups of products for companies.</p>
+                                    </li>
+                                 </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services_item">
+                    <ion-icon name="grid-outline"></ion-icon>
+                    <h3 class="services_title">Branding <br> Designer</h3>
+                    <span class="services_button">
+                        View More <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </span>
+                    <div class="services_modal">
+                        <div>
+                            <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                            <h3 class="services_modal-title">Branding Designer</h3>
+                            <p class="services_modal-description">Services width more than 3 years of experience.
+                                 Providing quality work to clients and companies</p>
+                                 <ul>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">I develop the user interfaces.</p>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">Web page development.</p>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">I create ux element iteractions.</p>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">I position your company brand.</p>
+                                    </li>
+                                    <li>
+                                        <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                        <p class="services_modal-info">Design and mockups of products for companies.</p>
+                                    </li>
+                                 </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact section" id="contact">
+             <h2 class="section_title">Contact Me</h2>
+
+            <div class="contact_container container">
+                <div class="contact_content">
+                    <div class="inputs">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="E-mail">
+                    </div>
+                    <input type="password" placeholder="Password">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <a href="#contact" class="btn btn-outline-dark" role="button" aria-disabled="true">Send Message&nbsp;<i class="bi bi-send"></i></a>
+                </div>
+            </div> 
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer_bg">
+                <div class="footer_container container">
+                    <div class="main_footer">
+                        <div class="footer_social">
+                            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                            <a href="#"><i class='bx bxl-instagram' ></i></a>
+                        </div>
+                        <div class="footer_description">
+                        <h3>Stevep-Dev</h3>
+                        <p>Passionate Web & Mobile Developer creating seamless digital experiences. Let's build something great together!</p>
+                        </div>
+                            <div class="footer_copy">&#169; Stevep-Dev. All right reserved</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- swiperjs -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- mixitup cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- jquery script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Main script -->
+    <script src="./assets/js/main.js"></script>
+
+
+</body>
+</html>
+>>>>>>> 1348a7d1c1ac1f2418f55ffd283535262307a9b7
